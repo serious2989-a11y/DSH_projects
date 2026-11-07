@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# pip temp dirs (created in cwd during installs)
+pip-*/
+tmp*/
+
+# IDE
+.idea/
+.vscode/
+
+# Local tooling and scratch data
+.dsh/
+.tools/
+.browser-profile/
+.acl-recovery/
+freellmapi-install/
+
+# OS
+Thumbs.db
+.DS_Store
